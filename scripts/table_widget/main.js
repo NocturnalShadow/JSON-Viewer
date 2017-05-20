@@ -79,7 +79,7 @@ function switchMode(tableWidget, mode) {
 		conceal(tableWidget.pageNavigation);
 
 		tableWidget.searchBox.value = "";
-		table.currentFilter = table.defaultFilter;
+		tableWidget.dataTable.currentFilter = tableWidget.dataTable.defaultFilter;
 	}
 	if(mode != "dropBox") {
 		conceal(tableWidget.dropBox);
