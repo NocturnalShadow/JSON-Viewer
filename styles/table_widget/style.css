@@ -64,6 +64,8 @@
 
 .textBox {
 	border-radius: 15px;
+	padding-left: 4px;
+	margin-left: 1%;
 }
 
 .urlForm > * {
