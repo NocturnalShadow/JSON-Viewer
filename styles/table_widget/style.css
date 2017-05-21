@@ -12,7 +12,7 @@
 
 .dataSwitch > * {
 	display: inline-block;
-	margin-right: 5%;
+	margin-right: 3%;
 	margin-bottom: 1em;
 }
 
@@ -26,9 +26,10 @@
 	height: 100px;
 	line-height: 100px;
 	margin: 15px auto;
-	border: 4px dashed; 
+	border: 5px dashed; 
 	border-color: grey;
 	border-radius: 25px;
+	background-color: #efefef;
 	text-align: center;
 }
 
@@ -43,6 +44,10 @@
 .dataTable td, th {
 	border-right: 1px solid white;
 	text-align: center;
+}
+
+.dataTable th {
+	height: 20px;
 }
 
 .dataTable tr:first-child {
@@ -63,9 +68,10 @@
 }
 
 .textBox {
-	border-radius: 15px;
-	padding-left: 4px;
+	border-radius: 1.5em;
+	padding-left: 0.5em;
 	margin-left: 1%;
+	height: 1.5em;
 }
 
 .urlForm > * {
@@ -78,18 +84,18 @@
 	text-align: center;
 }
 
-.pageNavigation > * {
+.pageNavigation button {
 	color: black;
 	display: inline-block;
-	padding: 6px 12px;
-	margin: 0 3px;
+	padding: 0px 12px;
+	margin: auto 2px;
+	text-align: center;
 	border: none;
 }
 .pageNavigation button:hover {
 	background-color: #8c44e3;
     color: white;
 }
-
 
 .right {
 	margin-right: 10%;

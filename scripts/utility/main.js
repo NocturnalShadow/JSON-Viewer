@@ -38,11 +38,13 @@ function lable(first, second) {
 	if(first instanceof Element) {
 		lable.appendChild(first);
 		appendText(lable, second);
+		lable.onclick = function () { first.click(); }
 		first.lable = lable;
 		return first;
 	} else if (second instanceof Element) {
 		appendText(lable, first);
 		lable.appendChild(second);
+		lable.onclick = function () { second.click(); }
 		second.lable = lable;
 		return second;
 	}
